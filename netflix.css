@@ -1,30 +1,38 @@
-body{
+body {
     background-color: rgb(21, 22, 22);
-   margin: -10px;
-   color: aliceblue;
+    margin: -0px;
+    color: aliceblue;
 }
-.blur{
-    background-color: rgba(0, 0, 0, 0.671);
+header{
+    margin-top: -13px;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.836);
     height: 680px;
     position: relative;
 }
-.hnav{
+
+.hnav {
     margin-top: 12px;
 }
-.bgimg{
+
+.bgimg {
     background-image: url(./img/netflix.jpg);
     height: 680px;
     width: 100%;
 
 
 }
-.hlogo{
+
+.hlogo {
     width: 130px;
     height: 135px;
     margin-left: 60px;
     margin-top: -20px;
 }
-.hright{
+
+.hright {
     height: 35px;
     background-color: transparent;
     color: aliceblue;
@@ -37,7 +45,8 @@ body{
     margin-right: 55px;
     margin-top: 25px;
 }
-.hright2{
+
+.hright2 {
     background-color: red;
     color: aliceblue;
     border: 0px;
@@ -50,7 +59,8 @@ body{
     margin-right: 50px;
     margin-top: 25px;
 }
-.hcenter{
+
+.hcenter {
     color: aliceblue;
     width: 48%;
     text-align: center;
@@ -59,15 +69,16 @@ body{
     margin-top: 40px;
     letter-spacing: 2px;
 }
+
 .htext1 {
     font-size: 50px;
     font-weight: 800;
     margin-bottom: -5px;
 }
-.sbar{
 
-}
-.sbar{
+.sbar {}
+
+.sbar {
     height: 51px;
     width: 460px;
     margin-left: -230px;
@@ -75,31 +86,166 @@ body{
     position: relative;
     font-size: large;
 }
-.btnbar{
-    height: 51px;
+
+.btnbar {
+    height: 57px;
     width: 220px;
-    margin-left: 0px;
     border: 0px;
     background-color: red;
     position: absolute;
     font-size: large;
     color: white;
 }
-.m1{
-    height: 400px;
-    background-color: black;
-    margin-top: 8px;
-}
-.m1txt{
-    padding-left: 150px;
-    padding-top: 125px;    
-}
-.m2img{
-    margin-left: 75px;
-    height: 400px;
-}
-.m3txt{
-    padding-right: 200px;
-    padding-top: 125px;    
+
+.mpos {
+    display: flex;
 }
 
+.m1 {
+    width: 50%;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 8px;
+}
+
+.m1txt {
+    margin-left: 20%;
+    margin-top: 25%;
+    font-size: x-large;
+}
+
+.m2txt {
+    margin-top: 20%;
+    font-size: x-large;
+}
+
+.m2img {
+    margin-left: 75px;
+    height: 90%;
+}
+/* faq */
+.bgfaq{
+    background-color: rgb(0, 0, 0);
+    margin-top: -25px;
+}
+.faq {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 300%;
+    padding-top: 70px;
+    letter-spacing: 2px;
+    font-weight: 800;
+
+}
+.faqbox{
+    width: 55%;
+    background-color: rgb(20, 20, 20);
+    height: 70px;
+    padding-left: 5%;
+    margin-left: 20%;
+    margin-top: -17px;
+
+}
+.fqtxt{
+    font-size: 170%;
+    padding-top: 15px;
+    font-weight: 300;
+
+}
+.fqendtext {
+    text-align: center;
+    font-weight: 200;
+    margin-top:60px;
+    letter-spacing: 1px;
+}
+
+.fqmail {
+    height: 51px;
+    width: 460px;
+    margin-left: 23%;
+    border: 2px solid white;
+    position: relative;
+    font-size: large;
+}
+.fqbtn {
+    height: 57px;
+    width: 220px;
+    border: 0px;
+    background-color: red;
+    position: absolute;
+    font-size: large;
+    color: white;
+}
+.fqend{
+    padding-bottom: 60px;
+    margin-left: 25px;
+}
+footer{
+    margin-top: -9px;
+    background-color: black;
+    margin-bottom: -15px;
+}
+.fpara{
+    padding-top: 70px;
+    letter-spacing: 2px;
+    margin-left: 17%;
+    color: rgb(153, 159, 165);
+    font-weight: 200;
+}
+.f4{
+    display: flex;
+    color: rgb(73, 81, 87);
+    width: 70%;
+    margin-left: 6%;
+    text-align: left;
+}
+.finpara{
+    margin-left: 150px;
+    font-size: small;
+     color: rgb(164, 173, 173);
+}
+.finpara1{
+    margin-left: 150px;
+}
+.finpara2{
+    margin-left: 80px;
+}
+.finpara3{
+    margin-left: 252px;
+}
+.finpara4{
+    margin-left: 117px;
+}
+.finpara5{
+    margin-left: 135px;
+}
+.finpara6{
+    margin-left: 174px;
+}
+.finpara7{
+    margin-left: 78px;
+}
+.finpara8{
+    margin-left: 119px;
+}
+.finpara9{
+    margin-left: 203px;
+}
+.ftrbtn{
+    width: 10%;
+    height: 50px;
+    margin-left: 228px;
+    margin-top: 25px;
+    font-size: large;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 2px;
+}
+.netflix{
+    margin-left: 227px;
+    color: rgb(133, 133, 133);
+    font-size: smaller;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
