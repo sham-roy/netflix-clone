@@ -285,3 +285,18 @@ footer{
     margin-top: 20px;
     padding-bottom: 50px;
 }
+p:hover{
+    color: rgb(255, 0, 0);
+}
+h1:hover{
+    color: rgb(110, 110, 116);
+}
+h4:hover{
+    color: rgb(110, 110, 116);
+}
+h3:hover{
+    color: rgb(255, 0, 0);
+}
+.faqbox:hover{
+    background-color: black;
+}
