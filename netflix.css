@@ -32,7 +32,7 @@ header{
     margin-top: -20px;
 }
 
-.hright {
+.hreng {
     height: 35px;
     background-color: transparent;
     color: aliceblue;
@@ -45,8 +45,12 @@ header{
     margin-right: 55px;
     margin-top: 25px;
 }
+.hreng:hover{
+background-color: rgb(255, 0, 0);
+border: 0px;
+}
 
-.hright2 {
+.hrsignin {
     background-color: red;
     color: aliceblue;
     border: 0px;
@@ -58,6 +62,9 @@ header{
     left: 1200px;
     margin-right: 50px;
     margin-top: 25px;
+}
+.hrsignin:hover{
+background-color: black;
 }
 
 .hcenter {
@@ -96,6 +103,9 @@ header{
     font-size: large;
     color: white;
 }
+.btnbar:hover{
+    background-color: black;
+}
 
 .mpos {
     display: flex;
@@ -118,10 +128,32 @@ header{
     margin-top: 20%;
     font-size: x-large;
 }
+.duca{
+    width: 60%;
+    border: 2px solid rebeccapurple;
+    margin-top:80px;
+    margin-left: 133px;
+}
 
+.m3img {
+    margin-left: 75px;
+    height: 90%;
+   margin-top: -312px;
+}
 .m2img {
     margin-left: 75px;
     height: 90%;
+}
+.cannon{
+    width: 50%;
+    border: 2px solid rebeccapurple;
+    margin-top:50px;
+    margin-left: 168px;
+}
+.m4img {
+    margin-left: 75px;
+    height: 90%;
+   margin-top: -235px;
 }
 /* faq */
 .bgfaq{
@@ -175,6 +207,9 @@ header{
     position: absolute;
     font-size: large;
     color: white;
+}
+.fqbtn:hover{
+    background-color: rgb(5, 5, 5);
 }
 .fqend{
     padding-bottom: 60px;
@@ -241,6 +276,9 @@ footer{
     color: rgb(255, 255, 255);
     border: 1px solid rgb(49, 49, 49);
     border-radius: 2px;
+}
+.ftrbtn:hover{
+    background-color: rgb(50, 51, 53);
 }
 .netflix{
     margin-left: 227px;
