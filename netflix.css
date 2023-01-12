@@ -83,8 +83,6 @@ background-color: black;
     margin-bottom: -5px;
 }
 
-.sbar {}
-
 .sbar {
     height: 51px;
     width: 460px;
@@ -92,16 +90,18 @@ background-color: black;
     border: 2px solid white;
     position: relative;
     font-size: large;
+    outline: 0px;
 }
 
 .btnbar {
     height: 57px;
     width: 220px;
     border: 0px;
-    background-color: red;
+    background-color: rgb(255, 0, 0); 
+    padding: 15px 30px;
     position: absolute;
     font-size: large;
-    color: white;
+    color: aliceblue;
 }
 .btnbar:hover{
     background-color: black;
@@ -137,7 +137,7 @@ background-color: black;
 .m3img {
     margin-left: 75px;
     height: 90%;
-   margin-top: -312px;
+   margin-top: -310px;
 }
 .m2img {
     margin-left: 75px;
@@ -196,6 +196,7 @@ background-color: black;
     border: 2px solid white;
     position: relative;
     font-size: large;
+    outline: 0px;
 }
 .fqbtn {
     height: 57px;
